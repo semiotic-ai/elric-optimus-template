@@ -1,0 +1,14 @@
+{
+  "name": "erc20",
+  "version": "v1.0.0",
+  "network": "mainnet",
+  "initial_block": 1,
+  "database": "default",
+  "contracts": [
+    {
+      "name": "erc20",
+      "table_prefix": "evt_",
+      "abi_file": "./abi/erc20.json"
+    }
+  ]
+}
